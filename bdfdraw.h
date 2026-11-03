@@ -2,8 +2,8 @@
 #define BDFDRAW_H
 
 
-#include "Bdf/bdffont.h"
-#include "Bdf/bdftextitem.h"
+#include "bdffont.h"
+#include "bdftextitem.h"
 
 #include <QGraphicsTextItem>
 #include <QGraphicsRectItem>
