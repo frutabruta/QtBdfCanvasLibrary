@@ -25,8 +25,8 @@ public:
 
     void drawWrappingText(QGraphicsScene *scene, QString text, const BdfFont &font, QColor textColor, int aX, int aY, int w, int h);
 
-    const int bdfMarginX = 4;
-    const int bdfMarginY = 4;
+    int bdfMarginX = 4;
+    int bdfMarginY = 4;
 
     QString lastInfotext="";
     void clearScene(QGraphicsScene *scene);

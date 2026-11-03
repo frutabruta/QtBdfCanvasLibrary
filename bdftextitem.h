@@ -21,7 +21,7 @@ public:
     void setText(const QString &text);
 
 private:
-    const BdfFont &m_font;
+    BdfFont m_font;
     QString m_text;
     QColor m_color;
 };
